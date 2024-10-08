@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="table.css">
 </head>
 <body>
+<!--
     <table>
         <thead>
             <tr>
@@ -34,7 +35,28 @@
             </tr>
         </tbody>
     </table>
+-->
+
     <br/>
+    <form action="table.html" id="form">
+        <label for="lastname">Vezetéknév</label>
+        <input type="text" id="lastname" required>
+        <br>
+        <label for="firstname1">1. keresztnév</label>
+        <input type="text" id="firstname1" required>
+        <br>
+        <label for="firstname2">2. keresztnév</label>
+        <input type="text" id="firstname2">
+        <br>
+        <label for="married">Házas-e?</label>
+        <input type="checkbox" id="married">
+        <br>
+        <label for="pet">Háziállat neve</label>
+        <input type="text" id="pet">
+        <br>
+        <button type="submit">Hozzáadás</button>
+    </form>
+    <br>
     <script src="scripts.js"></script>
 </body>
 </html>
